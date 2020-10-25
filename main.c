@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include"fonctions.h"
 int main() {
 int a;
 int b;
