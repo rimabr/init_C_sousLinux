@@ -1,0 +1,8 @@
+prog:fonction.o main.o 
+	gcc fonctions.o main.o -o prog -g 
+main.o:main.c
+	gcc main.c -g
+fonctions.o:fonctions.c
+	gcc -c fonctions.c -g
+
+
